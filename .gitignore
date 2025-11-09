@@ -1,0 +1,13 @@
+# Ignore large datasets and temporary files
+datasets/
+results/
+runs/
+*.jsonl
+*.tsv
+*.log
+*.zip
+__pycache__/
+*.pyc
+.env
+*.bak
+
