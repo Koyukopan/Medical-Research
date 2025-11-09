@@ -32,6 +32,7 @@ Retrieval-Augmented Generation（RAG）や有用性評価（AutoMedEval）に発
 ---
 
 ## 📁 ディレクトリ構成
+```bash
 Medical-Research/
 ├── opensearch-beir-benchmarks/   # OpenSearchインデックス作成・評価スクリプト
 ├── hybrid_rrf_search.py           # 検索システム本体（BM25 + Vector + RRF）
@@ -41,6 +42,7 @@ Medical-Research/
 ├── datasets/                 # 医療文書コーパス・クエリ・qrels（GitHub除外）
 ├── runs/                     # 検索結果（.trec）
 └── results/                  # 評価出力
+```
 
 > ⚠️ `.gitignore` により、`datasets/`, `runs/`, `results/` はGitHubにアップロードされません。
 
