@@ -39,7 +39,7 @@ Medical-Research/
 ├── README.md
 ├── .gitignore
 └── （ローカルのみ）
-├── datasets/                 # 医療文書コーパス・クエリ・qrels（GitHub除外）
+├── datasets/                 # 医療文書(PAM)コーパス・クエリ・qrels（GitHub除外）
 ├── runs/                     # 検索結果（.trec）
 └── results/                  # 評価出力
 ```
