@@ -58,7 +58,9 @@ source koyuvenv/bin/activate
 pip install -r requirements.txt
 
 ```
-### 2. OpenSearch の起動
+
+### 2. OpenSearch のセットアップ・起動
+https://github.com/uema2lab/OpenSearch-BEIR-Benchmarks参照．
 ```
 cd opensearch-beir-benchmarks
 docker compose up -d
